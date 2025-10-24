@@ -1,2 +1,1 @@
-# Saurabh
-Namaskaram this repository contain code of simon game.
+Namaskaram,This repo contains code for simon game.
