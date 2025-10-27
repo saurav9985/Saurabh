@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simon Says - How to Play</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #f0f4ff, #e3f2fd);
+      color: #222;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .rules {
+      max-width: 700px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .rules h3 {
+      color: #1976d2;
+      margin-bottom: 15px;
+    }
+
+    .rules ol {
+      line-height: 1.8;
+      margin-left: 20px;
+    }
+
+    .tips {
+      margin-top: 25px;
+      background: #e8f0fe;
+      border-left: 5px solid #1976d2;
+      padding: 15px 20px;
+      border-radius: 10px;
+    }
+
+    .tips ul {
+      margin: 10px 0 0 20px;
+      line-height: 1.6;
+    }
+
+    .start-btn {
+      display: inline-block;
+      margin-top: 30px;
+      background: #1976d2;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .start-btn:hover {
+      background: #1565c0; 
+    }
+
+    #start-btn{
+          background-color: rgb(19, 105, 204);
+          border-radius: 10px;
+          height:40px;
+    }
+  </style>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<i class="fa-solid fa-chess-board fa-beat"></i>
+
+  <h1>🧩 Simon Says</h1>
+   <!-- <h1> <i class="fa-utility fa-semibold fa-angle-right"></i> Simon Says</h1> -->
+  <h2> <img src="image-solid-full.svg" alt="" height="20px"> How to Play</h2>
+
+  
+
+  <div class="rules">
+    <h3>🎮 Game Rules</h3>
+     <!-- <h3><i class="fa-solid fa-gamepad fa-flip-horizontal fa-s" style="color: #1a0988;"></i></i> Game Rules</h3> -->
+    <ol>
+      <li><b>Start the Game:</b> Press any key on your keyboard to begin. The game starts at <b>Level 1</b>.</li>
+      <li><b>Watch the Pattern:</b> One of the colored buttons (<span style="color:red;">Red</span>, <span style="color:green;">Green</span>, <span style="color:blue;">Blue</span>, <span style="color:gold;">Yellow</span>) will flash. Remember the order!</li>
+      <li><b>Repeat the Sequence:</b> Click the buttons in the exact same order as they flashed.</li>
+      <li><b>Level Up:</b> Each new level adds one more color to the sequence. Keep your memory sharp!</li>
+      <li><b>Game Over:</b> If you click the wrong button, the screen flashes red and your score is shown. Press any key to restart.</li>
+       <li><b>:</b>you can also print your score and show it to your friend. </li>
+    </ol>
+
+    <div class="tips">
+      <h3>💡 Tips</h3>
+        <!-- <h3> Tips</h3> -->
+      <ul>
+        <li>Focus carefully on the flashing sequence.</li>
+        <li>Say the colors out loud to remember better!</li>
+        <li>Challenge your friends to beat your highest level.</li>
+      </ul>
+    </div>
+  </div>
+
+  <a href="SimonSay.html"><button id="start-btn">▶ Start Game</button></a>
+</body>
+</html>
